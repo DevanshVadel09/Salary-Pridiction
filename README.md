@@ -113,10 +113,10 @@ print(f"Predicted salary: {prediction[0][0]:,.2f}")
 
 See `models/model_comparison.csv` for the full comparison. Summary:
 
-| Model | MAE | RMSE | R² |
-|---|---|---|---|
-| Linear Regression | — | — | — |
-| ANN | — | — | — |
+| Model | MAE | MSE | RMSE | R² |
+|---|---|---|---|---|
+| ANN |  4885.9961|  37618211.919|  6133.3687|  0.9729|
+
 
 <!-- Fill in the numbers from model_comparison.csv -->
 
